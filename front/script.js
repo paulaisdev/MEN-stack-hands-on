@@ -7,7 +7,7 @@ const submitForm = (e) => {
 
   const data = accessData();
   console.log(data);
-  const url = "http://localhost:3030/users";
+  const url = "http://localhost:3000/users";
 
   if (!data) {
     return;
